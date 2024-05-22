@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background-color: rgb(145, 177, 145);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel {
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ptop {
+    background-color: rgb(49, 87, 49);
+    width: 100%;
+    height: 80px;
+    display:flex;
+    padding:0% 30%;
+    justify-content: space-between;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h3{
+    color: #fff;
+}
+
+.box{
+    color:rgb(25, 65, 25);
+    background-color: #fff;
+    font-size: 25px;
+    padding:10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.pbtm{
+    width:100%;
+    height: calc(100% - 100px);
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.bubble{
+    height:30px;
+    width:30px;
+    background-color: rgb(71, 126, 71);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bubble:hover{
+    background-color: rgb(11, 74, 11);
+}
+.gameOver{
+    text-align: center;
+}
+.start
+{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+   background-color: rgb(85, 126, 85);
+    color: white;
+    border: 2px solid rgb(11, 74, 11);
+    border-radius: 10px;
+}
